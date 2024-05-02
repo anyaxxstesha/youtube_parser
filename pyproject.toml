@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "youtube-parser"
+version = "0.1.0"
+description = ""
+authors = ["Anna Tarazanova <an.tarazanova2016@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-api-python-client = "^2.127.0"
+build = "^1.2.1"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
