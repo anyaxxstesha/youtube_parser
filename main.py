@@ -1,9 +1,11 @@
 import os
+import dotenv
 from utils import get_youtube_data, create_database, save_data_to_database
 from config import config
 
 
 def main():
+    dotenv.load_dotenv()
     api_key = os.getenv('YOUTUBE_API_KEY')
     channel_ids = [
         'UCDBOWnTdpOOD-hoTcBGTkmQ',  # Кирюша борода
