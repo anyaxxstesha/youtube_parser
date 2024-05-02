@@ -14,3 +14,12 @@ def config(filename="database.ini", section="postgresql"):
             'Section {0} is not found in the {1} file'.format(section, filename)
         )
     return db
+
+
+
+#def create_database(database_name: str, params: dict) -> None:
+  #  """Создание базы данных и таблиц для сохранения данных о каналах и видео"""
+
+
+#def save_data_to_database(data: list[dict[str, Any]], database_name: str, params: dict) -> None:
+ #   """Сохранение данных о каналах и видео в базу данных"""
